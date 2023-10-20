@@ -27,7 +27,7 @@
               </p>
               <p>I am a second year Ph.D. student from <a href="https://intelconstructlab.github.io/index.html">ICon Lab</a> at <a href="https://www.ubc.ca/">the University of British Columbia</a>. I earned my Master's degree at Carnegie Mellon University. 
               </p>
-              <p>My research mainly focuses on construction robotics.
+              <p>My research mainly focuses on construction robotics. My current interest is trying to make use of Visual-Language-Model as prior information for robot navigation problems.
 	      </p>
               <p style="text-align:center">
                 <a href="https://scholar.google.com/citations?user=AqGGowsAAAAJ&hl=en">CV</a> &nbsp/&nbsp
@@ -52,7 +52,46 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 				
-    
+ <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()"  bgcolor="#ffffd0">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='zipnerf_image'><video  width="160x" height="180x" muted autoplay loop>
+          <source src="images/research/acteabot_experiments.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/research/acteabot2022-acteabotdesign.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function zipnerf_start() {
+            document.getElementById('zipnerf_image').style.opacity = "1";
+          }
+
+          function zipnerf_stop() {
+            document.getElementById('zipnerf_image').style.opacity = "0";
+          }
+          zipnerf_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://www.sciencedirect.com/science/article/pii/S0926580523001619">
+          <papertitle>RoboAuditor: Goal-Oriented Robotic System for Assessing Energy-intensive Indoor Appliance via Visual Language Models</papertitle>
+        </a>
+        <br>
+        <strong>Weijia Cai</strong>,
+        <a href="https://scholar.google.com/citations?user=qM_o0AkAAAAJ&hl=en">Lei Huang</a>,
+        <a href="https://scholar.google.com/citations?user=-p51P1kAAAAJ&hl=en">Zhengbo Zou</a>,
+        <br>
+        <em>BuildSys2023</em>, 2023
+        <br>
+        /
+        <a href="https://www.sciencedirect.com/science/article/pii/S0926580523001619">Elsevier</a>
+        <p></p>
+        <p>
+        In this paper, we propose an autonomous robotic system, dubbed RoboAuditor, for identifying and localizing energy-intensive appliances in buildings given text queries from humans. RoboAuditor utilizes visual language models to predict relevance scores between text queries and observed images for goal selection in robot navigation. It then automatically identifies and localizes queried appliances while self-navigating with efficient navigational strategies.
+        </p>
+      </td>
+    </tr>
+		
     <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()"  bgcolor="#ffffd0">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
